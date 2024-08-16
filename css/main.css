@@ -123,3 +123,9 @@ footer {
 .custom {
     color: #520000;
 }
+
+.hangman {
+    position: relative;
+    bottom: 300px;
+    right: 450px;
+}

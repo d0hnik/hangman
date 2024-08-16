@@ -13,6 +13,7 @@
     font-family: "Hammersmith One", serif;
     height: 20px;
     font-size: 1.2rem;
+    width: 100%;
 }
 
 #popup button {
@@ -117,10 +118,4 @@
         padding-top: 30px;
     }
     
-}
-
-.hangman {
-    position: relative;
-    bottom: 300px;
-    right: 450px;
 }

@@ -1,0 +1,146 @@
+
+.wrong {
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: tomato !important;
+    border: 4px solid tomato !important;
+}
+
+.right {
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: green !important;
+    border: 4px solid green !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.end-game {
+    background: #3f9194;
+    font-family: "Hammersmith One", serif;
+    color: #fff;
+    border: 3px solid #222c3a;
+    box-shadow: 1px 1px #222c3a;
+    font-size: 1.2rem;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+.wrong-letters-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+
+.wrong-letters {
+    margin-left: 20px;
+}
+
+
+.titles {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tries {
+    align-content: end;
+}
+
+.word-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 80px;
+}
+
+.word {
+    letter-spacing: 15px;
+    font-size: 2rem;
+}
+
+
+del {
+    text-decoration-color: red
+}
+
+.letter {
+    font-family: "Hammersmith One", serif;
+    background: #3f9194;
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 1.7rem;
+    border: 4px solid #3f9194;
+    box-shadow: 5px 5px #222c3a;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.letter:hover {
+    background: #2e89a5;
+    border: 4px solid #2e89a5;
+}
+
+.letter-br {
+    padding-left: 30px;
+}
+
+.second-row {
+    margin-left: 20px;
+}
+
+.third-row {
+    margin-left: 50px;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 100;
+}
+
+
+#popupWin {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #303e52;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 101;
+    text-align: center;
+}
+
+#popupLose {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #303e52;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 101;
+    text-align: center;
+}

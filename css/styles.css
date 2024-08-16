@@ -1,0 +1,126 @@
+
+
+.label {
+    margin-bottom: 7px;
+    font-size: 1.4rem;
+}
+
+.input {
+    margin-bottom: 7px;
+}
+
+.custom-input {
+    font-family: "Hammersmith One", serif;
+    height: 20px;
+    font-size: 1.2rem;
+}
+
+#popup button {
+    background: #3f9194;
+    font-family: "Hammersmith One", serif;
+    color: #fff;
+    border: 3px solid #222c3a;
+    box-shadow: 1px 1px #222c3a;
+    font-size: 1.2rem;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#popup .green {
+    background: #32dd00 !important;
+    transition: background-color 0.25s ease-in-out;
+    /*#4fd92d*/
+}
+
+#popup .green:hover {
+    background: #3aff00 !important;
+}
+
+#popup .yellow {
+    background: #ffc107 !important;
+    transition: background-color 0.25s ease-in-out;
+}
+
+#popup .yellow:hover {
+    background: #edff35 !important;
+}
+
+#popup .red {
+    background: #cb0000 !important;
+    transition: background-color 0.25s ease-in-out;
+}
+
+#popup .red:hover {
+    background: #ff0000 !important;
+}
+
+#popup .custom {
+    background: #520000 !important;
+}
+
+.description-title {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.description ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.start-game {
+    background: #3f9194;
+    font-family: "Hammersmith One", serif;
+    color: #fff;
+    border: 3px solid #222c3a;
+    box-shadow: 1px 1px #222c3a;
+    font-size: 1.2rem;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.custom-start-game {
+    background: #00815b;
+    font-family: "Hammersmith One", serif;
+    color: #fff;
+    border: 3px solid #222c3a;
+    box-shadow: 1px 1px #222c3a;
+    font-size: 1.2rem;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.back {
+    background: #a73a00;
+    font-family: "Hammersmith One", serif;
+    color: #fff;
+    border: 3px solid #222c3a;
+    box-shadow: 1px 1px #222c3a;
+    font-size: 1.2rem;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+ /*For Phones */
+@media (max-width: 600px) {
+    .description-title {
+        padding-top: 30px;
+    }
+    
+}
+
+.hangman {
+    position: relative;
+    bottom: 300px;
+    right: 450px;
+}

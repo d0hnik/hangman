@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman</title>
+  <link rel="stylesheet" href="../css/game.css">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <!-- HAMMERSMITH FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header>
+  <h1><a href="index.html">Hangman Game</a></h1>
+</header>
+
+<main class="wrapper">
+  <div class="titles">
+    <span class="gameMode">Gamemode: <span id="gameMode"></span></span>
+    <span class="tries">Tries Left: <span id="triesCount"></span></span>
+  </div>
+
+  <div class="word-container">
+    <span class="word" id="word"></span>
+  </div>
+
+  <div class="wrong-letters-container">
+  </div>
+
+  <div class="letter-container">
+      <button class="letter" id="q">Q</button>
+      <button class="letter" id="w">W</button>
+      <button class="letter" id="e">E</button>
+      <button class="letter" id="r">R</button>
+      <button class="letter" id="t">T</button>
+      <button class="letter" id="y">Y</button>
+      <button class="letter" id="u">U</button>
+      <button class="letter" id="i">I</button>
+      <button class="letter" id="o">O</button>
+      <button class="letter" id="p">P</button>
+    <div class="second-row">
+      <button class="letter" id="a">A</button>
+      <button class="letter" id="s">S</button>
+      <button class="letter" id="d">D</button>
+      <button class="letter" id="f">F</button>
+      <button class="letter" id="g">G</button>
+      <button class="letter" id="h">H</button>
+      <button class="letter" id="j">J</button>
+      <button class="letter" id="k">K</button>
+      <button class="letter" id="l">L</button>
+    </div>
+    <div class="third-row">
+      <button class="letter" id="z">Z</button>
+      <button class="letter" id="x">X</button>
+      <button class="letter" id="c">C</button>
+      <button class="letter" id="v">V</button>
+      <button class="letter" id="b">B</button>
+      <button class="letter" id="n">N</button>
+      <button class="letter" id="m">M</button>
+    </div>
+  </div>
+
+  <div id="overlay"></div>
+
+  <div id="popupWin">
+    <h2>YOU WON!</h2>
+    <a href="index.html"><button class="end-game">Go back</button></a>
+  </div>
+
+  <div id="popupLose">
+    <h2>YOU LOST!</h2>
+    <h3>The word was: <span id="end-word"></span></h3>
+    <span class="lose-word"></span>
+    <a href="index.html"><button class="end-game">Go back</button></a>
+  </div>
+
+</main>
+<footer>
+
+  <div class="contact-links">
+    <a href="https://www.linkedin.com/in/daniil-petrov-4a66952a9/" target="_blank"><img src="../images/linkedin.png" alt="linkedin" class="contact-logo"></a>
+    <a href="https://github.com/d0hnik?tab=repositories" target="_blank"><img src="../images/github.png" alt="github" class="contact-logo"></a>
+  </div>
+
+</footer>
+
+<script src="../js/game.js"></script>
+</body>
+</html>
